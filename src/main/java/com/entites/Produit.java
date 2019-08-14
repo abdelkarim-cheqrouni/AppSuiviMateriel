@@ -22,6 +22,10 @@ import javax.persistence.*;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonFormat.Shape;
  
+/**
+ * @author cheqrouni
+ *
+ */
 @Entity
 @Table(name = "produit")
 public class Produit implements Serializable {
